@@ -7,6 +7,9 @@ on:
 
 jobs:
   ci-build:
+    permissions:
+      contents: read
+      security-events: write
     uses: Bounteous-Inc/bounteous-dotnet-common-workflows/.github/workflows/ci-build.yml@main
     with:
       dotnet-version: '10.0.x'
