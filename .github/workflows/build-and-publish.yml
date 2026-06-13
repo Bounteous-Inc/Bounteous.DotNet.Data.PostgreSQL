@@ -14,6 +14,3 @@ jobs:
       nuget-package-name: 'bounteous.data.postgresql'
       dotnet-version: '10.0.x'
       release-path: 'net10.0'
-    secrets:
-      NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-      NUGET_SOURCE_URI: ${{ secrets.NUGET_SOURCE_URI }}
